@@ -1,6 +1,6 @@
 {
   "name": "@chenfengyuan/datepicker",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A simple jQuery datepicker plugin.",
   "main": "dist/datepicker.common.js",
   "module": "dist/datepicker.esm.js",
@@ -118,5 +118,6 @@
       "stylelint --fix",
       "git add"
     ]
-  }
+  },
+  "dependencies": {}
 }

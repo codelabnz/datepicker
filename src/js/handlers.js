@@ -196,7 +196,7 @@ export default {
     const trigger = $trigger[0];
     let hidden = true;
 
-    while (target !== document) {
+    while (target && target !== document) {
       if (target === trigger || target === element) {
         hidden = false;
         break;
